@@ -1,0 +1,17 @@
+Package: MSstrings
+Title: MSstrings: An R package for parsing annotated amino acid strings
+Version: 0.1-1
+Authors@R: person("Randy", "Johnson", role = c("aut", "cre"), email = "johnson@hood.edu")
+Description: MSstrings is a package for parsing annotated amino acid strings. The only format currently supported is output from Spectronaut.
+License: MIT + file LICENSE
+Depends: R (>= 4.0)
+biocViews:
+Imports:
+  Biostrings,
+  dplyr,
+  purrr,
+  stringr
+URL: https://github.com/BIFX545-25/MSstrings
+BugReports: https://github.com/BIFX545-25/MSstrings/issues
+Encoding: UTF-8
+RoxygenNote: 7.3.2
